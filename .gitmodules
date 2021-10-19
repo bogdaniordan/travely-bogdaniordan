@@ -1,0 +1,3 @@
+[submodule "travely-frontend"]
+	path = travely-frontend
+	url = git@github.com:bogdaniordan/travely-frontend.git
