@@ -1,3 +1,9 @@
 [submodule "travely-frontend"]
 	path = travely-frontend
 	url = git@github.com:bogdaniordan/travely-frontend.git
+[submodule "travely-backend"]
+	path = travely-backend
+	url = git@github.com:bogdaniordan/travely-backend.git
+[submodule "travely-host-frontend"]
+	path = travely-host-frontend
+	url = https://github.com/bogdaniordan/travely-host-frontend
