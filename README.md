@@ -28,8 +28,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/bogdaniordan/dungeon-crawl-bogdaniordan">
-    <img src="https://st2.depositphotos.com/22919514/42111/v/950/depositphotos_421112720-stock-illustration-radar-security-travel-line-colored.jpg" alt="Logo" width="300">
+  <a href="https://github.com/bogdaniordan/travely-bogdaniordan">
+    <img src="https://images-platform.99static.com//ZaGA0639BRm9svmcisB34LEu4E4=/386x256:1107x977/fit-in/500x500/99designs-contests-attachments/101/101369/attachment_101369948" alt="Logo" width="300">
   </a>
 
   <h3 align="center">Travely</h3>
@@ -98,8 +98,8 @@ Here's why:
 #### Frontend
 * [React](https://reactjs.org/)
 * [React-Bootstrap](https://react-bootstrap.github.io/)
-* [npm](https://www.npmjs.com
-* 
+* [npm](https://www.npmjs.com/)
+
 #### Version control
 * [Github](https://www.gtihub.com/)
 
@@ -151,7 +151,7 @@ All prerequisites must be installed, accordingly to the technologies used in thi
 ## Usage
 
 Further I will shortly name, describe and visualize some main features of the app.
-### Lobby
+### Customer application
 * In order to connect to the main server, there is necessary to register or login.
 
 [![register-png][register-png]]()
@@ -175,7 +175,7 @@ Further I will shortly name, describe and visualize some main features of the ap
 [![challenge-gif][challenge-gif]]()
 [![battle-gif][battle-gif]]()
 
-### Battle
+### Host application
 * The battle is turn based, with the player being able to select the Pokemon, and the move which to be executed against the adversary Pokemon. Once both players "locked" their own moves, they will get a log response with the results of the turn, and impacting their Pokemon health accordingly. You can also swith between your Pokemon team at any time.
 
 <!-- ROADMAP -->
@@ -185,14 +185,14 @@ The project development took place through 8 Agile iterations, each iteration ta
 
 ![agile-logo](https://user-images.githubusercontent.com/72221647/138440913-f67be820-c3a8-46d2-a35c-1f847acb2c48.png)
 
-* Sprint 1: Implementing game functionalities (Movement, Items, Enemy fights)
-* Spring 2: Implementing save and load functionalities / (Load, save, export)
-* Sprint 3: Implementing game functionalities (Movement, Items, Enemy fights)
-* Spring 4: Implementing save and load functionalities / (Load, save, export)
-* Sprint 5: Implementing game functionalities (Movement, Items, Enemy fights)
-* Spring 6: Implementing save and load functionalities / (Load, save, export)
-* Sprint 7: Implementing game functionalities (Movement, Items, Enemy fights)
-* Spring 8: Implementing save and load functionalities / (Load, save, export)
+* Sprint 1: Created core backend objects, services and controllers 
+* Sprint 2: Started building the UI for customer app
+* Sprint 3: Started styling the UI for customer app
+* Sprint 4: Connected the UI with the backend and built more functionalities
+* Sprint 5: Created the host app frontend
+* Sprint 6: Built more functionalities for each app (customer and host)
+* Sprint 7: Added landing pages, aws image storage and UI styling
+* Sprint 8: Refactored code, fixed various bugs, added CSS styling
 
 
 <!-- CONTRIBUTING -->
