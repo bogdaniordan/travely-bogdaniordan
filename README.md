@@ -29,7 +29,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/bogdaniordan/travely-bogdaniordan">
-    <img src="https://images-platform.99static.com//ZaGA0639BRm9svmcisB34LEu4E4=/386x256:1107x977/fit-in/500x500/99designs-contests-attachments/101/101369/attachment_101369948" alt="Logo" width="300">
+    <img src="https://images-platform.99static.com//JDXR0rEaoLvLvb7xMrFzXCrOs6c=/39x199:539x699/fit-in/500x500/99designs-contests-attachments/100/100842/attachment_100842541" alt="Logo" width="300">
   </a>
 
   <h3 align="center">Travely</h3>
@@ -79,14 +79,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a dungeon crawl based game where player can fight enemies, collect potions and advance to new levels.
+This is a useful booking app made for people who want to reserve accommodations or rent a car, and for hosts who want to bring a tenant for their property. The app also has a community feature.
 
 Here's why:
-* Movement is tile based.
-* Players can collect different items into their inventory. Those items offers various stats.
-* Players can fight moving or static enemies.
-* Fighters can advance to undiscovered levels.
-* Players can save or load their game from a PSQL database or a JSON file.
+* Customers can browse and book various accommodation hosted by others.
+* Customers can manage their bookings, reschedule, rent a car, ask questions etc.
+* There is a community feature where customers, can send friend requests, chat or add different posts.
+* Hosts can add their bookings, manage them and answer questions from customers.
+* Hosts can hire cleaners to keep their accommodations flawless.
 
 ### Built With
 
@@ -152,31 +152,35 @@ All prerequisites must be installed, accordingly to the technologies used in thi
 
 Further I will shortly name, describe and visualize some main features of the app.
 ### Customer application
-* In order to connect to the main server, there is necessary to register or login.
+* Customers can create an account, browse, view and reserve various accommodations.
 
-[![register-png][register-png]]()
-[![login-png][login-png]]()
-[![login-gif][login-gif]]()
+![Screenshot from 2021-10-21 11-52-02](https://user-images.githubusercontent.com/72221647/138472638-e4d9fc17-480d-410b-be05-faee82842670.png)
+![Screenshot from 2021-10-21 12-32-23](https://user-images.githubusercontent.com/72221647/138472677-38e0e3a6-fefc-486f-a791-44531202b7d1.png)
+![Screenshot from 2021-10-21 12-32-41](https://user-images.githubusercontent.com/72221647/138472709-83b1c1f8-23c7-4141-8485-1ee718c59ad4.png)
 
-* Here all users join a common "room", where they can check who is online, and they can chat, either on  the main chat, or send PM to specific users.
+* Customer can browse/edit his profile, manage his bookings 
 
-[![chat-png][chat-png]]()
+![Screenshot from 2021-10-21 12-32-56](https://user-images.githubusercontent.com/72221647/138472959-97d83070-0a05-4323-b43b-b25ca9921bb4.png)
 
-* Click on any user and see the private actions you can take towards that specific user.
+* Customers can seach and rent a car for a determined period of time.
 
-[![PM-gif][PM-gif]]()
+![Screenshot from 2021-10-21 12-33-08](https://user-images.githubusercontent.com/72221647/138473048-5ad7bbed-a358-4ca1-a60c-0cdd6c7972b9.png)
 
-* Using the button in the header, you open the TEAM configuration modal, where you can configure all your Pokemon slots, with actual characters and with detailed criteria as seen bellow:
+* There is a community feature where users can make new friends, make posts and chat privately.
 
-[![team-gif][team-gif]]()
-
-* Select the user you want to engage into battle and by pressing the challenge button, you will be transferred on a private room with him/her, where you can chat or execute the battle.
-
-[![challenge-gif][challenge-gif]]()
-[![battle-gif][battle-gif]]()
+![Screenshot from 2021-10-22 17-32-38](https://user-images.githubusercontent.com/72221647/138473289-ac423fd8-5256-45ea-9a5d-1e6ac5e27b17.png)
+![Screenshot from 2021-10-22 17-32-53](https://user-images.githubusercontent.com/72221647/138473354-0aab61de-3125-41b9-a7ba-b3b6a2c89269.png)
 
 ### Host application
-* The battle is turn based, with the player being able to select the Pokemon, and the move which to be executed against the adversary Pokemon. Once both players "locked" their own moves, they will get a log response with the results of the turn, and impacting their Pokemon health accordingly. You can also swith between your Pokemon team at any time.
+
+* Hosts can add new accommodations or manage their bookings.
+
+![Screenshot from 2021-10-21 12-37-44](https://user-images.githubusercontent.com/72221647/138473752-28941616-bd91-4684-929a-73febe205ba3.png)
+![Screenshot from 2021-10-21 12-37-56](https://user-images.githubusercontent.com/72221647/138474007-78f584ac-be14-440b-bcdf-cde7d1c92fd5.png)
+
+* Hosts can answer and resolve questions received from their customers.
+
+![Screenshot from 2021-10-21 12-38-40](https://user-images.githubusercontent.com/72221647/138473987-68a6cea0-d451-40ac-8e3f-5d756da24f55.png)
 
 <!-- ROADMAP -->
 ## Roadmap
